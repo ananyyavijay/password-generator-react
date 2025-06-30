@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body{
+  background: #333446;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.copy {
+  background-color: #333446;
+  transition: background-color 0.3s ease;
+}
+
+.copy:hover {
+  background-color: rgb(41, 93, 154);
+}
